@@ -9,7 +9,7 @@ end
 getgenv().loaded = true 
 
 local seraphAcc = seraphAcc or {}
-
+--up
 -- Variables 
 local uis = game:GetService("UserInputService") 
 local players = game:GetService("Players") 
