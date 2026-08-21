@@ -46,7 +46,7 @@ local cons = {}
 
 -- local visualization = peakAsset:Clone()
 -- draw visualization
-do
+--[[do
 	function createArc(startAngle, endAngle, segments, radiusScale, thicknessScale)
 		radiusScale = radiusScale or 0.45   -- % of min(parent size)
 		thicknessScale = thicknessScale or 0.05
@@ -114,7 +114,7 @@ do
 	visualization:FindFirstChildWhichIsA("SurfaceGui").SizingMode = Enum.SurfaceGuiSizingMode.PixelsPerStud
 	visualization:FindFirstChildWhichIsA("SurfaceGui").PixelsPerStud = 50
 	visualization.Parent = nil
-end
+end--]]
 -- end visualization
 
 getgenv().connections = cons
