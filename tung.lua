@@ -44,7 +44,7 @@ local cons = {}
 -- peakAsset.Size = Vector3.zero
 -- peakAsset.Anchored, peakAsset.CanCollide, peakAsset.CanTouch, peakAsset.CanQuery = true, false, false, false
 
-local visualization = peakAsset:Clone()
+-- local visualization = peakAsset:Clone()
 -- draw visualization
 do
 	function createArc(startAngle, endAngle, segments, radiusScale, thicknessScale)
