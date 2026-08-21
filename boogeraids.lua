@@ -30,7 +30,7 @@ local player_list = {}
 local esp_frames = {}
 local lerpedFlySpeed, totalSpeed = 0, 1;
 
-local _assets = game:GetObjects("rbxassetid://96007083256961")[1]:Clone()
+--local _assets = game:GetObjects("rbxassetid://96007083256961")[1]:Clone()
 
 function xpcall(...)
 	for _, toPcall in {...} do
@@ -40,9 +40,9 @@ end
 
 local cons = {}
 
-local peakAsset = game:GetObjects("rbxassetid://113170053514092")[1]:Clone()
-peakAsset.Size = Vector3.zero
-peakAsset.Anchored, peakAsset.CanCollide, peakAsset.CanTouch, peakAsset.CanQuery = true, false, false, false
+--local peakAsset = game:GetObjects("rbxassetid://113170053514092")[1]:Clone()
+--peakAsset.Size = Vector3.zero
+--peakAsset.Anchored, peakAsset.CanCollide, peakAsset.CanTouch, peakAsset.CanQuery = true, false, false, false
 
 local visualization = peakAsset:Clone()
 -- draw visualization
